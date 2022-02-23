@@ -13,5 +13,8 @@ namespace Tickets.Models
         public DateTime CreatedDate { get; set; }
         public Data.TicketStatus Status { get; set; }    
 
+        // Relationships
+        public List<Comment> Comments { get; set; }
+
     }
 }
